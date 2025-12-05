@@ -62,8 +62,8 @@ header {
   /* BOTÃO CRIAR CONTA */
   .btn-create {
     padding: 0.5rem 1rem;
-    background: #f2b63d;
-    color: #fff;
+    background: c60000;
+    color: #950101;
     border: none;
     border-radius: 6px;
     font-weight: 600;
@@ -71,7 +71,7 @@ header {
     transition: 0.3s;
 
     &:hover {
-      background: #d99c2f;
+      background: #c60000;
     }
   }
 
@@ -89,7 +89,7 @@ header {
     align-items: center;
 
     &:hover {
-      border-color: #f2b63d;
+      border-color: #c60000;
     }
   }
 }

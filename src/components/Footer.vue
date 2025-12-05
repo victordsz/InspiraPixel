@@ -1,11 +1,12 @@
 <script setup>
+import { Icon } from "@iconify/vue";
 </script>
 
 <template>
   <footer class="footer">
     <div class="footer-content">
-
-      <!-- COLUNA NEWSLETTER -->
+      
+      <!-- NEWSLETTER -->
       <div class="footer-newsletter">
         <h3></h3>
         <p>Assine e receba imagens em alta definição.</p>
@@ -14,9 +15,25 @@
           <input type="email" placeholder="Digite seu e-mail" />
           <button>Inscrever</button>
         </div>
+
+        <!-- SOCIAL ICONS -->
+        <div class="social-icons">
+          <a href="#">
+            <Icon icon="ri:instagram-line" width="26" />
+          </a>
+          <a href="#">
+            <Icon icon="mdi:facebook" width="26" />
+          </a>
+          <a href="#">
+            <Icon icon="mdi:twitter" width="26" />
+          </a>
+          <a href="#">
+            <Icon icon="mdi:youtube" width="26" />
+          </a>
+        </div>
       </div>
 
-      <!-- COLUNA ATENDIMENTO -->
+      <!-- ATENDIMENTO -->
       <div class="footer-column">
         <h4>Atendimento</h4>
         <ul>
@@ -25,14 +42,14 @@
         </ul>
       </div>
 
-      <!-- COLUNA INSTITUCIONAL -->
+      <!-- INSTITUCIONAL -->
       <div class="footer-column">
         <h4>Institucional</h4>
         <ul>
           <li><a href="#">Sobre Nós</a></li>
           <li><a href="#">Política de Privacidade</a></li>
           <li><a href="#">Trabalhe Conosco</a></li>
-          <li><a href="#">Sustentabilidade</a></li>
+          
         </ul>
       </div>
     </div>
@@ -44,7 +61,6 @@
 </template>
 
 <style scoped lang="scss">
-
 .footer {
   width: 100%;
   padding: 3rem 2rem;
@@ -72,12 +88,6 @@
   .footer-newsletter {
     flex: 1;
 
-    h3 {
-      font-family: "Poppins", sans-serif;
-      font-size: 1.3rem;
-      margin-bottom: 0.7rem;
-    }
-
     p {
       font-size: 0.95rem;
       margin-bottom: 1rem;
@@ -98,12 +108,12 @@
         font-size: 0.95rem;
 
         &:focus {
-          border-color: #f2b63d;
+          border-color: #c60000;
         }
       }
 
       button {
-        background: #f2b63d;
+        background: #c60000;
         border: none;
         padding: 0.75rem 1.2rem;
         border-radius: 6px;
@@ -112,7 +122,24 @@
         transition: 0.2s;
 
         &:hover {
-          background: #d99c2f;
+          background: #c60000;
+        }
+      }
+    }
+
+    /* SOCIAL ICONS */
+    .social-icons {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: 1rem;
+
+      a {
+        color: #444;
+        transition: 0.2s;
+
+        &:hover {
+          color: #c60000;
+          transform: translateY(-3px);
         }
       }
     }
@@ -146,7 +173,7 @@
           transition: 0.2s;
 
           &:hover {
-            color: #f2b63d;
+            color: #c60000;
           }
         }
       }

@@ -64,9 +64,9 @@ import { Icon } from "@iconify/vue";
 .footer {
   width: 100%;
   padding: 3rem 2rem;
-  background: #fafafa;
-  color: #333;
-  border-top: 1px solid #e5e5e5;
+  background: rgb(65, 65, 65);
+  color: #d6d6d6;
+  border-top: 1px solid #ff0000;
 
   display: flex;
   flex-direction: column;
@@ -91,7 +91,7 @@ import { Icon } from "@iconify/vue";
     p {
       font-size: 0.95rem;
       margin-bottom: 1rem;
-      color: #666;
+      color: #bbbaba;
     }
 
     .newsletter-input {
@@ -134,7 +134,7 @@ import { Icon } from "@iconify/vue";
       gap: 1rem;
 
       a {
-        color: #444;
+        color: #bbbaba;
         transition: 0.2s;
 
         &:hover {
@@ -154,7 +154,7 @@ import { Icon } from "@iconify/vue";
       font-size: 1rem;
       margin-bottom: 1rem;
       font-weight: 600;
-      color: #2d2d2d;
+      color: #bbbaba;
     }
 
     ul {
@@ -168,7 +168,7 @@ import { Icon } from "@iconify/vue";
 
         a {
           text-decoration: none;
-          color: #555;
+          color: #ffffff;
           font-size: 0.95rem;
           transition: 0.2s;
 
